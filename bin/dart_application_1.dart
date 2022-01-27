@@ -1,3 +1,5 @@
+import 'package:path/path.dart';
+
 void main(List<String> arguments) {
 //   String my = 'kartik';
 //   print(my.contains('ka'));
@@ -143,22 +145,38 @@ void main(List<String> arguments) {
   //   for (final number in [1, 23, 3]) number.toString()
   // ]);
 
-  // final list1 = ['hello', 'io'];
-  // final list2 = ['opl', 'opi'];
-  // <String>[...list1, ...list2];
+//   // final list1 = ['hello', 'io'];
+//   // final list2 = ['opl', 'opi'];
+//   // <String>[...list1, ...list2];
 
-//enums
-  AccountType.values[1];
-  AccountType usertype = AccountType.premium;
-  final usetyp = AccountType.free;
-  print(AccountType.premium.index);
+// //enums
+//   AccountType.values[1];
+//   AccountType usertype = AccountType.premium;
+//   final usetyp = AccountType.free;
+//   print(AccountType.premium.index);
 
-  switch (AccountType.free) {
-    case AccountType.free:
-      print('free');
-      break;
-      case AccountType.premium:break;
+//   switch (AccountType.free) {
+//     case AccountType.free:
+//       print('free');
+//       break;
+//       case AccountType.premium:break;
+//   }
+
+  // User kartik = new User();
+  // User lofi = User();
+  // kartik.name;
+  // var io = User();
+  // final iop = User(name: 'jio', photoUrl: 'kio');
+  // iop.name = 'kop';
+}
+
+class User {
+  late String name;
+  String photoUrl;
+  User({required this.photoUrl, required String firstname}) {
+    name = firstname + 'hello';
   }
 }
 
-enum AccountType { free, premium, vip }
+
+// enum AccountType { free, premium, vip }
