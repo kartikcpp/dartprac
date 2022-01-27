@@ -33,86 +33,122 @@ void main(List<String> arguments) {
 //     print('5');
 //   } else {
 //     print('none');
-//   }
-
-//   switch (mynum) {
-//     case 5:
-//       print('5');
-//       break;
-//     case 6:
-//       print('6');
-//       break;
-//     default:
-//       print('default');
 // //   }
 
-// //loops
+// //   switch (mynum) {
+// //     case 5:
+// //       print('5');
+// //       break;
+// //     case 6:
+// //       print('6');
+// //       break;
+// //     default:
+// //       print('default');
+// // //   }
 
-//   for (int i = 0; i < 10; i++) {
-//     print(i);
-//   }
-//   int j = 0;
-//   bool condition = true;
-//   while (condition) {
-//     print('while' + j.toString());
-//     j++;
-//     if (j > 10) {
-//       break;
-//     }
-//   }
+// // //loops
 
-//   do {} while (condition);
+// //   for (int i = 0; i < 10; i++) {
+// //     print(i);
+// //   }
+// //   int j = 0;
+// //   bool condition = true;
+// //   while (condition) {
+// //     print('while' + j.toString());
+// //     j++;
+// //     if (j > 10) {
+// //       break;
+// //     }
+// //   }
 
-//   void nested() {}
-//   mov();
-//   positionalParameter(34, 33, 'jio');
-//   optionalpositionparameter(09);
-// }
+// //   do {} while (condition);
 
-// String mov() {
-//   return 'df';
-// }
+// //   void nested() {}
+// //   mov();
+// //   positionalParameter(34, 33, 'jio');
+// //   optionalpositionparameter(09);
+// // }
 
-// void positionalParameter(int x, double y, String greeting) {
-//   print('$greeting $x $y');
-// }
+// // String mov() {
+// //   return 'df';
+// // }
 
-// void optionalpositionparameter(int x, [int y = 90]) {
-//   print(y);
-// }
+// // void positionalParameter(int x, double y, String greeting) {
+// //   print('$greeting $x $y');
+// // }
 
-// void namedoptionalparams(
-//     {required int x, required double y, required String greet}) {}
+// // void optionalpositionparameter(int x, [int y = 90]) {
+// //   print(y);
+// // }
 
-// int Function(int) twice(int Function(int) f) {
-//   return int g (int x) {
-//     return 1;
+// // void namedoptionalparams(
+// //     {required int x, required double y, required String greet}) {}
+
+// // int Function(int) twice(int Function(int) f) {
+// //   return int g (int x) {
+// //     return 1;
+// //   };
+// // }
+
+// // typedef inttransformer=int Function(int);
+// // int inttransformer twice(int inttransformer f) {
+// //   return  (int x) {
+// //     return 1;
+// //   };
+// // }
+
+// //collections
+
+//   List mylist = [34, 34, 34342, 234];
+//   print(mylist);
+//   print(mylist.length);
+//   final firstelem = mylist[0];
+//   final myList2 = [23, 23, 23, 2323, 'io'];
+//   Map<int, dynamic> sd = {
+//     0: 'jon',
+//     1: 'lop',
+//     2: true,
 //   };
-// }
 
-// typedef inttransformer=int Function(int);
-// int inttransformer twice(int inttransformer f) {
-//   return  (int x) {
-//     return 1;
-//   };
-// }
+//   Set<int> mySet = {
+//     1,
+//     34,
 
-//collections
+// //   };
+//   final names = ['kartik', 'jolly', 'hari'];
+  // final namelength = names.map((e) => e.length).toList();
+  // print(namelength[0]);
 
-  List mylist = [34, 34, 34342, 234];
-  print(mylist);
-  print(mylist.length);
-  final firstelem = mylist[0];
-  final myList2 = [23, 23, 23, 2323, 'io'];
-  Map<int, dynamic> sd = {
-    0: 'jon',
-    1: 'lop',
-    2: true,
-  };
+  // final secondnameslength = names.where((name) => name.length >= 5).toList();
+  // print(secondnameslength);
 
-  Set<int> mySet = {
-    1,
-    34,
-  
-  };
+  // for (int i = 0; i < secondnameslength.length; i++) {
+  //   print(secondnameslength[i]);
+  // }
+
+  // for (final name in names) {
+  //   print(name);
+  // }
+  // secondnameslength.forEach(print);
+
+  // bool isSignedIn = true;
+
+  // <String>[
+  //   'This is fake contact.',
+  //   if (isSignedIn) 'Sign out' else 'Sign in',
+  // ];
+
+  // print(<String>[
+  //   for (int i = 0; i < 10; i++) i.toString(),
+  //   for (final number in [1, 23, 3]) number.toString()
+  // ]);
+
+  // final list1 = ['hello', 'io'];
+  // final list2 = ['opl', 'opi'];
+  // <String>[...list1, ...list2];
+
+
+//enum
+
+
 }
