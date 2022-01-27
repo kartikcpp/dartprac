@@ -148,9 +148,17 @@ void main(List<String> arguments) {
   // <String>[...list1, ...list2];
 
 //enums
-  AccountType.values;
+  AccountType.values[1];
   AccountType usertype = AccountType.premium;
   final usetyp = AccountType.free;
+  print(AccountType.premium.index);
+
+  switch (AccountType.free) {
+    case AccountType.free:
+      print('free');
+      break;
+      case AccountType.premium:break;
+  }
 }
 
 enum AccountType { free, premium, vip }
