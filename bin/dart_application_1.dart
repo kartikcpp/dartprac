@@ -147,8 +147,10 @@ void main(List<String> arguments) {
   // final list2 = ['opl', 'opi'];
   // <String>[...list1, ...list2];
 
-
-//enum
-
-
+//enums
+  AccountType.values;
+  AccountType usertype = AccountType.premium;
+  final usetyp = AccountType.free;
 }
+
+enum AccountType { free, premium, vip }
