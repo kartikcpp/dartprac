@@ -105,8 +105,14 @@ void main(List<String> arguments) {
   final firstelem = mylist[0];
   final myList2 = [23, 23, 23, 2323, 'io'];
   Map<int, dynamic> sd = {
-    0:'jon',
-    1:'lop',
-    2:true,
+    0: 'jon',
+    1: 'lop',
+    2: true,
+  };
+
+  Set<int> mySet = {
+    1,
+    34,
+  
   };
 }
